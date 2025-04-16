@@ -1,0 +1,13 @@
+datasets:
+  ISIC2018_png_224:
+    path: "./data/ISIC2018_png_224"
+
+  Glas_png_224:
+    path: "./data/Glas_png_224"
+
+  ACDC_png_224:
+    path: "./data/ACDC_png_224"
+
+paths:
+  gold_standard: "./segment_result/gold_standard"
+  save_model: "./save_model"

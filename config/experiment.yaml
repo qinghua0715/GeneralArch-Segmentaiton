@@ -1,0 +1,12 @@
+experiment:
+  id: "S_Net"
+  data: "ISIC2018_png_224"
+  num_classes: 1
+  save_path: "./save_model"
+  epochs: 120
+  resume: False
+  checkpoint_freq: 10
+  early_stop: 150
+  batch_size: 52
+  lr: 0.001
+  weight_decay: 0.0001
