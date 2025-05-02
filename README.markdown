@@ -158,6 +158,7 @@ pip install torch pandas shutil pathlib
   ```bash
   python main.py --data my_dataset --id my_model --num_classes 1 --batch_size 16 --lr 0.001 --epochs 50
   ```
+- 或者在配置好参数后，在pycharm中直接运行main.py
 
 ### 3. 命令行参数
 
